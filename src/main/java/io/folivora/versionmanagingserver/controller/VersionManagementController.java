@@ -10,7 +10,6 @@ public class VersionManagementController {
 
     @GetMapping("/version-data")
     public VersionDto getVersionData() {
-        System.out.println("test");
         return new VersionManagementServiceImpl().getVersionData();
 
     }
